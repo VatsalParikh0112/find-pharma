@@ -6,6 +6,11 @@
     "analytics": "e677f195-4679-4790-ace3-f6a3d5c44dec"
   },
   "newProjectRoot": "projects",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "none"
+    }
+  },
   "projects": {
     "find-pharma": {
       "projectType": "application",
