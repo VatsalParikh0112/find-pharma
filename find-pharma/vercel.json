@@ -1,8 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "dist/find-pharma/server/server.mjs",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "dist/find-pharma/server/server.mjs"
     }
   ]
 }
