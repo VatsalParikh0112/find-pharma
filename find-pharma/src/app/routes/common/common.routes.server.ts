@@ -6,19 +6,19 @@ export const commonServerRoutes: ServerRoute[] = [
     renderMode: RenderMode.Prerender,
   },
   {
-    path: 'common/home',
+    path: 'home',
     renderMode: RenderMode.Prerender,
   },
   {
-    path: 'common/about',
+    path: 'about',
     renderMode: RenderMode.Prerender,
   },
   {
-    path: 'common/contact',
+    path: 'contact',
     renderMode: RenderMode.Prerender,
   },
   {
-    path: 'common/follow-us',
+    path: 'follow-us',
     renderMode: RenderMode.Prerender,
   },
 ];
